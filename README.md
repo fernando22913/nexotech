@@ -1,16 +1,17 @@
-# React + Vite
+# NexoTech — Sistema de Gestión y Trazabilidad de Activos Tecnológicos
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Prototipo frontend interactivo desarrollado para la gestión, control de estados, trazabilidad e historial de movimientos de activos tecnológicos dados de baja en una organización.
 
-Currently, two official plugins are available:
+## Descripción del Proyecto
+NexoTech es una solución orientada a optimizar el ciclo de vida de los equipos tecnológicos (notebooks, servidores, periféricos, etc.). Permite registrar altas, realizar un seguimiento detallado de las ubicaciones, gestionar responsables, consultar historiales de traslados/reparaciones y emitir reportes de inventario de forma ágil y visual.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Características Principales
+* **Gestión de Activos:** Registro de nuevos equipos, visualización de fichas técnicas individuales y estados actuales (en uso, disponible, baja).
+* **Trazabilidad e Historial:** Registro cronológico de movimientos, cambios de responsable, traslados entre oficinas y entradas a servicio técnico.
+* **Módulo de Reportes:** Filtros avanzados por períodos, tipos de equipo y ubicaciones.
+* **Interfaz Dinámica:** Dashboard intuitivo adaptado para roles administrativos de TI con navegación fluida y diseño responsivo.
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tecnologías Utilizadas
+* **React** (con **Vite**) para el desarrollo de componentes modulares.
+* **CSS / Tailwind CSS** para la maquetación y estilos de la interfaz.
+* **Git & GitHub** para el control de versiones del código fuente.
